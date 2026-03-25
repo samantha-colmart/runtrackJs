@@ -1,0 +1,20 @@
+/* Page blanche par défaut */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Styles activés par le Konami Code */
+.konami {
+    background-color: #0055ff; /* bleu La Plateforme_ */
+    color: white;
+    font-size: 2em;
+}

@@ -1,0 +1,15 @@
+/* Styles par défaut */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s; /* transition douce */
+}
+
+/* Styles pour le thème sombre */
+body.dark-theme {
+    background-color: black;
+    color: white;
+}
