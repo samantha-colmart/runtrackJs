@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>Jour 05</h2>
+    <div>
+        <a href="inscription.html">Inscription</a>
+        <a href="connexion.html">Connexion</a>
+    </div>
+</header>
+
+<form id="form">
+
+    <div class="row">
+        <div class="field">
+            <label>Prénom</label>
+            <input type="text" id="firstname">
+            <small class="error"></small>
+        </div>
+
+        <div class="field">
+            <label>Nom</label>
+            <input type="text" id="lastname">
+            <small class="error"></small>
+        </div>
+    </div>
+
+    <div class="field">
+        <label>Email</label>
+        <input type="email" id="email">
+        <small class="error"></small>
+    </div>
+
+    <div class="row">
+        <div class="field">
+            <label>Mot de passe</label>
+            <input type="password" id="password">
+            <small class="error"></small>
+        </div>
+
+        <div class="field">
+            <label>Confirmation</label>
+            <input type="password" id="confirmPassword">
+            <small class="error"></small>
+        </div>
+    </div>
+
+    <div class="field">
+        <label>Adresse</label>
+        <input type="text" id="address">
+        <small class="error"></small>
+    </div>
+
+    <div class="field">
+        <label>Code postal</label>
+        <input type="text" id="postal">
+        <small class="error"></small>
+    </div>
+
+    <button type="submit">S'inscrire</button>
+
+</form>
+
+<script src="inscription.js"></script>
+</body>
+</html>

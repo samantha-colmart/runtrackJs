@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Job02 - Jour 3</title>
+    <script src="../../jquery-4.0.0.min.js"></script>
+    <script src="script.js"></script>
+
+    <style>
+        #container {
+            display: flex;
+            gap: 5px;
+            margin: 20px;
+        }
+
+        img {
+            width: 100px;
+            cursor: pointer;
+        }
+
+        #resultat {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="melanger">Mélanger</button>
+    <button id="verifier">Vérifier</button>
+
+    <div id="container">
+        <img src="arc1.png" data-order="1">
+        <img src="arc2.png" data-order="2">
+        <img src="arc3.png" data-order="3">
+        <img src="arc4.png" data-order="4">
+        <img src="arc5.png" data-order="5">
+        <img src="arc6.png" data-order="6">
+    </div>
+
+    <p id="resultat"></p>
+
+</body>
+</html>
